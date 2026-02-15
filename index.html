@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Golden Drop</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- Barra de Navegação -->
+<nav class="nav-bar">
+    <!-- Botão de Help -->
+    <div id="help-button" class="help-button" onclick="toggleHelp()">
+        <i class="fas fa-question-circle"></i>
+    </div>
+
+    <!-- Título Central -->
+    <div class="header-title" onclick="resetToStart()">
+        Golden Drop
+    </div>
+
+    <!-- Menu Hambúrguer -->
+    <div id="menu-hamburger" class="menu-hamburger">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <img src="Img/start_button.png" alt="Menu" class="hamburger-image">
+        </div>
+        <div class="menu-options">
+            <button onclick="loadScenes('Flyn.json')">Flyn</button>
+            <button onclick="loadScenes('Principal.json')">Main Story</button>
+            <button id="gothelBtnMain">Gothel</button>
+            <button onclick="resetToStart()">Go Home</button>
+        </div>
+    </div>
+</nav>
+
+<div class="help-panel" id="helpPanel">
+    <div class="help-item">
+        <i class="fa fa-compass"></i>
+        <span>Faça scroll ou use as setas para navegar</span>
+    </div>
+    <div class="help-item">
+        <i class="fas fa-volume-up"></i>
+        <span>Veja um botão de som para sentir a música</span>
+    </div>
+    <div class="help-item">
+        <i class="fas fa-mouse-pointer"></i>
+        <span>Arraste nas imagens para revelar segredos</span>
+    </div>
+</div>
+
+<!-- Botões de seleção -->
+<!-- Container principal para os botões -->
+<div id="start-screen" class="start-screen">
+    <div class="background-default"></div>
+    <div class="background-hover"></div>
+    <h1>Timeline</h1>
+    <div class="botoes-json">
+        <button onclick="loadScenes('Flyn.json')">Flyn</button>
+        <button onclick="loadScenes('Principal.json')">Main Story</button>
+        <button id="gothelBtnMenu">Gothel</button>
+    </div>
+</div>
+
+<div  id="container"></div>
+
+<div id="progressIndicator"></div>
+<div id="fullscreenOverlay">
+    <img id="fullscreenImage" src="" alt="Imagem em tela cheia" />
+</div>
+
+<div id="mensagem-indisponivel" style="
+    display: none;
+    position: fixed;
+    bottom: 18%;
+    left: 57%;
+    transform: translateX(-50%);
+    background: none;
+    color:#534f4f;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 10000;
+">
+    Indisponível
+</div>
+
+
+<!-- Texto revelado -->
+<div id="textoFixo" class="texto-fixo" style="display: none;"></div>
+<div id="texto-scroll-wrapper">
+    <div id="texto-scroll-content"></div>
+</div>
+
+<!-- Adicione isso no final do body, antes do script.js -->
+<audio id="backgroundMusic" loop>
+    <source src="Sons/Disney%20Relaxing%20Piano%20-%20I%20See%20the%20Light.mp3" type="audio/mpeg">
+</audio>
+<audio id="sceneSound"></audio>
+
+<!-- Botão de Mute -->
+<div id="mute-button" class="mute-button" onclick="toggleMute()">
+    <i class="fas fa-volume-up"></i>
+</div>
+
+<!-- Controles de música -->
+<div id="music-controls" class="music-controls">
+    <button class="music-control-btn" id="prev-music">
+        <i class="fas fa-step-backward"></i>
+    </button>
+    <button class="music-control-btn" id="play-pause-music">
+        <i class="fas fa-pause"></i>
+    </button>
+    <button class="music-control-btn" id="next-music">
+        <i class="fas fa-step-forward"></i>
+    </button>
+    <div class="music-progress">
+        <div class="music-progress-bar" id="music-progress-bar"></div>
+    </div>
+    <div class="music-time" id="music-time">0:00 / 0:00</div>
+</div>
+
+<script src="script.js"></script>
+
+<script>
+
+    const backgroundHover = document.querySelector('.background-hover');
+    const backgroundDefault = document.querySelector('.background-default'); // Adicione esta linha
+    const botoes = document.querySelectorAll('.botoes-json button');
+
+    const imagensPorBotao = {
+        'Flyn': 'Flyn1/F3.png',
+        'Main Story': 'principal/65.png',
+        'Gothel': 'principal/10.png'
+    };
+
+    botoes.forEach(botao => {
+        const texto = botao.innerText.trim();
+        const imagemFundo = imagensPorBotao[texto];
+
+        botao.addEventListener('mouseenter', () => {
+            if (imagemFundo) {
+                backgroundDefault.style.opacity = '0'; // Esconde a imagem padrão
+                backgroundHover.style.backgroundImage = `url('${imagemFundo}')`;
+                backgroundHover.style.opacity = 0.4;
+            }
+        });
+
+        botao.addEventListener('mouseleave', () => {
+            backgroundDefault.style.opacity = '1'; // Mostra a imagem padrão novamente
+            backgroundHover.style.opacity = 0;
+        });
+    });
+
+    function showIndisponivelMessage() {
+        const msg = document.getElementById('mensagem-indisponivel');
+        msg.style.display = 'block';
+        void msg.offsetWidth; // força reflow
+        msg.style.opacity = '1';
+
+        setTimeout(() => {
+            msg.style.opacity = '0';
+            setTimeout(() => {
+                msg.style.display = 'none';
+            }, 500);
+        }, 2000);
+    }
+
+    // Botões GOTHEL - principal e hambúrguer
+    const gothelBtnMain = document.getElementById('gothelBtnMain');
+    const gothelBtnMenu = document.getElementById('gothelBtnMenu');
+
+    if (gothelBtnMain) {
+        gothelBtnMain.addEventListener('click', (e) => {
+            e.preventDefault();
+            showIndisponivelMessage();
+        });
+    }
+
+    if (gothelBtnMenu) {
+        gothelBtnMenu.addEventListener('click', (e) => {
+            e.preventDefault();
+            showIndisponivelMessage();
+        });
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,816 @@
+{
+  "cenas": [
+    {
+      "tipo": "unica",
+      "imagem": "principal/1.png",
+      "silhueta": "mascaras/1M.png",
+      "texto": "Cena 1",
+      "z": 0,
+      "x": -5000,
+      "y": 500,
+      "conteudo": "<p>Vou vos contar a historias de como uma gota caída do sol mudou a história deste reino.</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/2.png",
+      "texto": "Cena 2",
+      "z": 1200,
+      "x": -4800,
+      "y": 100,
+      "conteudo": "<p>A rainha encontrava se grávida e doente e sabia da existência desta flor que curava,</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/3.png",
+      "texto": "Cena 3",
+      "z": 800,
+      "x": -4000,
+      "y": 400,
+      "conteudo": "<p> então mandou os guardas a procura dela</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/4.png",
+      "texto": "Cena 4",
+      "z": 600,
+      "x": -3000,
+      "y": 500,
+      "conteudo": "<p>Enquanto isso  tudo acontecia no reino Gothel usava a flor regularmente para se manter jovem.</p>",
+      "sound": "Sons/flower-gleam-glow.mp3"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/5.png",
+      "texto": "Cena 5",
+      "z": 1200,
+      "x": -2500,
+      "y": 1000,
+      "conteudo": "<p>A flor foi encontrada e foi usada </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/6.png",
+      "texto": "Cena 6",
+      "z": 1200,
+      "x": -2000,
+      "y": 0,
+      "conteudo": "<p>para fazer uma chá de cura para a rainha</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/7.png",
+      "texto": "Cena 7",
+      "z": 800,
+      "x": -1500,
+      "y": 0,
+      "conteudo": "<p></p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/8.png",
+      "texto": "Cena 8",
+      "z": 300,
+      "x": -1500,
+      "y": 300,
+      "conteudo": "<p>Com a rainha curada nasce a Rapunzel com os seu cabelos loiros e mágicos.</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/9.png",
+      "texto": "Cena 9",
+      "z": 100,
+      "x": -1000,
+      "y": 500,
+      "conteudo": "<p>Com isto Gothel fica sem a sua fonte de magia para se manter jovem então decide ir até ao palácio e cortar um pedaço de cabelo da rapunzel mas </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/10.png",
+      "texto": "Cena 10",
+      "z": 500,
+      "x": -700,
+      "y": 1000,
+      "conteudo": "<p>ao cortar o cabelo perde a magia.</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/11.png",
+      "texto": "Cena 11",
+      "z": 1000,
+      "x": -400,
+      "y": 500,
+      "conteudo": "<p> E foi assim que o reino ficou sem princesa.</p>"
+    },
+    {
+      "tipo": "conjunto",
+      "nome": "Conjunto Triplo 1",
+      "conteudo": "<p> A rapunzel  cresceu na torre sozinha com a “Mãe” e a sua obsessão pelo seu cabelo que nunca chegou a perceber</p>",
+      "cenas": [
+        {
+          "imagem": "principal/12.png",
+          "texto": "Cena 12",
+          "z": 50,
+          "x": 80,
+          "y": 575
+        },
+        {
+          "imagem": "principal/13.png",
+          "texto": "Cena 13",
+          "z": 100,
+          "x": 100,
+          "y": 570
+        },
+        {
+          "imagem": "principal/14.png",
+          "texto": "Cena 14",
+          "z": 100,
+          "x": 100,
+          "y": 550
+        }
+      ]
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/15.png",
+      "texto": "Cena 15",
+      "z": 500,
+      "x": 200,
+      "y": 500,
+      "conteudo": "<p>O reino todos os anos no seu aniversário lançam lanternas em sua homenagem e ela desde pequena que as vê da janela daquela torre sem saber que eram para ela </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/16.png",
+      "texto": "Cena 16",
+      "z": 1500,
+      "x": 450,
+      "y": 20,
+      "conteudo": "<p> Por não poder sair da torre rapunzel tinha muitos passatempos, para a a ocuparem mas o mais destacável é a pintura que ela usa como forma de imaginar o mundo lá fora.</p>",
+      "sound": "Sons/Anabela Pires - A Minha Vida Vai Começar (De Entrelaçados).mp3"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/17.png",
+      "texto": "Cena 17",
+      "z": 800,
+      "x": 200,
+      "y": 0,
+      "offsetY": 150,
+      "conteudo": "<p>Flyn decide rouba a coroa da rainha</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/18.png",
+      "texto": "Cena 18",
+      "z": 900,
+      "x": 500,
+      "y": -500,
+      "conteudo": "<p>com os seus parceiros, os slabbinghon brothers</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/19.png",
+      "silhueta": "mascaras/19M.png",
+      "texto": "Cena 19",
+      "z": 500,
+      "x": 1000,
+      "y": 550,
+      "offsetY": 100,
+      "conteudo":  "<p>De seguida fogem pela floresta a dentro, e deparam-se com a foto deles WANTED </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/20.png",
+      "texto": "Cena 20",
+      "z": 300,
+      "x": 2000,
+      "y": 0,
+      "offsetY": 100,
+      "conteudo":"<p>Chocados e a serem preseguidos pelos guardas fogem,</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/21.png",
+      "texto": "Cena 21",
+      "z": 800,
+      "x": 2500,
+      "y": 0,
+      "conteudo": "<p>cada vez mais para dentro da floresta</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/22.png",
+      "texto": "Cena 22",
+      "z": 900,
+      "x": 3000,
+      "y": -300,
+      "offsetY": 50,
+      "conteudo":  "<p>Mas deparam se com um obstáculo </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/23.png",
+      "texto": "Cena 23",
+      "z": 500,
+      "x": 3500,
+      "y": -200,
+      "offsetY": 50,
+      "conteudo": "<p>Flyn é obrigado a dar a coroa aos irmão </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/24.png",
+      "texto": "Cena 24",
+      "z": 300,
+      "x": 4000,
+      "y": 0,
+      "conteudo":  "<p>Ele sobe primeiro, e depois os irmãos pedem ajuda ao Flyn para subir </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/25.png",
+      "texto": "Cena 25",
+      "z": 500,
+      "x": 4500,
+      "y": -200,
+      "conteudo":"<p>Mas ele vigarista como é ao subir tirou lhes a coroa e não os ajudou a subir, fugiu</p>"
+    },
+    {
+      "tipo": "conjunto",
+      "nome": "Conjunto Triplo 1",
+      "conteudo": "<p>Continua a correr e a fugir dos guardas</p>",
+      "cenas": [
+        {
+          "imagem": "principal/26.png",
+          "texto": "Cena 26",
+          "z": 800,
+          "x": 5000,
+          "y": -250
+        },
+        {
+          "imagem": "principal/27.png",
+          "texto": "Cena 27",
+          "z": 900,
+          "x": 5000,
+          "y": -300
+        },
+        {
+          "imagem": "principal/28.png",
+          "texto": "Cena 28",
+          "z": 950,
+          "x": 5005,
+          "y": -260
+        }
+      ]
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/29.png",
+      "silhueta": "mascaras/29M.png",
+      "texto": "Cena 29",
+      "z": 500,
+      "x": 5500,
+      "y": -1000,
+      "conteudo": "<p>Lançaram lhe flechas mas ele conseguiu escapar</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/30.png",
+      "texto": "Cena 30",
+      "z": 300,
+      "x": 6000,
+      "y": -100,
+      "offsetY": 100,
+      "conteudo": "<p>Com isto tudo conseguiu montar um dos cavalos dos guardas mas não durou muito para ele perceber que não era o dono</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/31.png",
+      "texto": "Cena 31",
+      "z": 700,
+      "x": 6500,
+      "y": -200,
+      "conteudo": "<p>Com todo o reboliço a mala com a coroa acabou por voar para um ramo de uma árvore que estava na ponta da montada.Ao chegarem lá a árvore</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/32.png",
+      "texto": "Cena 32",
+      "z": 0,
+      "x": 7000,
+      "y": 200,
+      "conteudo": "<p>caiu.</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/33.png",
+      "texto": "Cena 33",
+      "z": 300,
+      "x": 7500,
+      "y": 0,
+      "scale": 2,
+      "offsetY": 100,
+      "conteudo": "<p>Depois conseguiu se esconder do cavalo ao entrar numa gruta</p>"
+    },
+    {
+      "tipo": "conjunto",
+      "nome": "Conjunto Duplo 1",
+      "conteudo": "<p>...</p>",
+      "cenas": [
+        {
+          "imagem": "principal/34.png",
+          "texto": "Cena 34",
+          "z": 450,
+          "x": 8080,
+          "y": -200,
+          "offsetY": 100
+        },
+        {
+          "imagem": "principal/35.png",
+          "texto": "Cena 35",
+          "z": 1000,
+          "x": 8000,
+          "y": -200,
+          "offsetY": 100
+        }
+      ]
+    },
+    {
+      "tipo": "conjunto",
+      "nome": "Conjunto Duplo 2",
+      "conteudo": "<p>E deparou se com a torre e decide subi la para se esconder</p>",
+      "cenas": [
+        {
+          "imagem": "principal/37.png",
+          "texto": "Cena 36",
+          "z": 1000,
+          "x": 9100,
+          "y": 500
+        },
+        {
+          "imagem": "principal/36.png",
+          "texto": "Cena 37",
+          "z": 1300,
+          "x": 9090,
+          "y": 450,
+          "offsetY": 50
+        }
+      ]
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/38.png",
+      "texto": "Cena 38",
+      "z": 2000,
+      "x": 9000,
+      "y": 0,
+      "offsetY": 50,
+      "conteudo": "<p>E quando finalmente achava que está sozinho e salvo...</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/39.png",
+      "texto": "Cena 39",
+      "z": 1000,
+      "x": 9500,
+      "y": -300,
+      "conteudo": "<p>Rapunzel dá lhe com a frigideira e ele fica KO</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/40.png",
+      "texto": "Cena 40",
+      "z": 500,
+      "x": 10000,
+      "y": 30,
+      "conteudo": "<p></p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/41.png",
+      "silhueta": "mascaras/41M.png",
+      "texto": "Cena 41",
+      "z": 900,
+      "x": 11000,
+      "y": 270,
+      "conteudo": "<p>Ela prende-o dentro do armário e ainda não acredita que tem alguem dentro da torre</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/42.png",
+      "texto": "Cena 42",
+      "z": 1500,
+      "x": 12000,
+      "y": 0,
+      "offsetY": 50,
+      "conteudo": "<p>Entretanto chega a mãe má e a rapunzel pede-lhe que para o aniversário quer ir lá fora </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/43.png",
+      "texto": "Cena 43",
+      "z": 1600,
+      "x": 13000,
+      "y": -60,
+      "scale": 0.7,
+      "conteudo": "<p>E ela diz lhe q não é seguro</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/44.png",
+      "texto": "Cena 44",
+      "z": 1500,
+      "x": 14000,
+      "y": 20,
+      "conteudo": "<p>E assusta a com o mundo de lá fora</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/45.png",
+      "texto": "Cena 45",
+      "z": 300,
+      "x": 14500,
+      "y": -40,
+      "conteudo": "<p>Então a rapunzel acaba por lhe pedir umas tintas para ela pintar e</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/46.png",
+      "texto": "Cena 46",
+      "z": 400,
+      "x": 15000,
+      "y": 800,
+      "scale": 1.5,
+      "offsetY": 100,
+      "conteudo": "<p>a mãe lá aceita e diz que estaria de volta dentro de 3 dias </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/47.png",
+      "texto": "Cena 47",
+      "z": 1000,
+      "x": 15500,
+      "y": -30,
+      "conteudo": "<p>Depois da mãe se ir embora Rapunzel amarra Flyn com o seu cabelo numa cadeira e esconde a coroa</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/48.png",
+      "texto": "Cena 48",
+      "z": 1500,
+      "x": 16000,
+      "y": 20,
+      "conteudo": "<p>e diz que só a vai devolver se ele a levar a ver as luzes </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/49.png",
+      "texto": "Cena 49",
+      "z": 1000,
+      "x": 16500,
+      "y": 400,
+      "scale": 1.1,
+      "conteudo": "<p>Ele concorda e ela desceu da torre pela primera vez, e sente uma liberdade e ao e mesmo tempo culpa por estar a desobedecer a sua “mãe”.</p>",
+      "sound": "Sons/Anabela Pires - A Minha Vida Vai Começar (Reprise 2) (De Entrelaçados).mp3"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/50.png",
+      "texto": "Cena 50",
+      "z": 800,
+      "x": 17000,
+      "y": 10,
+      "conteudo":"<p>Flyn ao ver isto diz que a vai levar para casa e ela ameaça-o de novo</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/51.png",
+      "texto": "Cena 51",
+      "z": 1000,
+      "x": 17500,
+      "y": 500,
+      "conteudo": "<p>Então ele leva-a a uma taberna a achar que ela vai desistir mas não, ela canta e anima tudo com a sua energia </p>",
+      "sound": "Sons/Eu Vou Sonhar (De Entrelaçados).mp3"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/52.png",
+      "texto": "Cena 52",
+      "z": 300,
+      "x": 17600,
+      "y": 500,
+      "conteudo":  "<p>Entretanto tiveram de fugir porque viram o cavalo dos guardas e os homens da taberna mostraram lhe um passagem secreta </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/53.png",
+      "silhueta": "mascaras/53M.png",
+      "texto": "Cena 53",
+      "z": 400,
+      "x": 18000,
+      "y": -500,
+      "conteudo": "<p>mas o cavalo real descobriu instantaneamente </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/54.png",
+      "texto": "Cena 54",
+      "z": 1000,
+      "x": 19000,
+      "y": -500,
+      "conteudo": "<p> Quando estavam na passagem secreta Flyn pergunta a rapunzel porque é que ela nunca tinha ido ver as luzes se era o sonho dela mas Rapuzel desvia a conversa</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/55.png",
+      "texto": "Cena 55",
+      "z": 600,
+      "x": 19500,
+      "y": 10,
+      "conteudo":"<p>Quando saem da passagem deparam se com</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/56.png",
+      "texto": "Cena 56",
+      "z": 1000,
+      "x": 20000,
+      "y": -10,
+      "conteudo": "<p>os irmãos que andavam a procura do Flyn </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/57.png",
+      "texto": "Cena 57",
+      "z": 800,
+      "x": 20500,
+      "y": 0,
+      "conteudo":  "<p>Conseguiram escapar e param num rio mas durante isso Flyn magoa a mão</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/58.png",
+      "texto": "Cena 58",
+      "z": 1500,
+      "x": 21000,
+      "y": 0,
+      "conteudo": "<p>E rapunzel cura a sua mão cantado com o cabelo enrolado na ferida </p>",
+      "sound": "Sons/Disney TangledEntrelaçados - Healing Incantation (EU Portuguese) HD.mp3"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/59.png",
+      "texto": "Cena 59",
+      "z": 300,
+      "x": 21500,
+      "y": -10,
+      "conteudo": "<p>De seguida Flyn afasta-se e aparece a “mãe de rapunzel e tenta leva-la mas ela recusa se </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/60.png",
+      "silhueta": "mascaras/59M.png",
+      "texto": "Cena 60",
+      "z": 2000,
+      "x": 22000,
+      "y": 0,
+      "conteudo":  "<p>Então a mãe com raiva vai fazer algo q nenhuma mãe faria….</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/61.png",
+      "texto": "Cena 61",
+      "z": 0,
+      "x": 22500,
+      "y": 0,
+      "conteudo": "<p>Depois disso Rapunzel finalmente chega ao reino e meninas fazem lhe uma trança linda  </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/62.png",
+      "texto": "Cena 62",
+      "z": 300,
+      "x": 22600,
+      "y": -10,
+      "conteudo": "<p>com flores assim Rapunzel pode se movimentar mais facilmente</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/63.png",
+      "texto": "Cena 63",
+      "z": 700,
+      "x": 23000,
+      "y": 10,
+      "conteudo": "<p>Na cidade Flyn continua a esconder se dos guardas pois ele continua a ser um procurado</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/64.png",
+      "silhueta": "mascaras/64M.png",
+      "texto": "Cena 64",
+      "z": 1500,
+      "x": 23500,
+      "y": -10,
+      "conteudo":  "<p>Rapunzel guarda uma tecido com um sol representante do reino</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/65.png",
+      "texto": "Cena 65",
+      "z": 1300,
+      "x": 24000,
+      "y": 10,
+      "conteudo":  "<p> Á noite como prometido eles vão ver as luzes noturnas </p>",
+      "sound": "Sons/Anabela Pires, Henrique Feist - Eu Vejo a Luz (De Entrelaçados).mp3"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/66.png",
+      "texto": "Cena 66",
+      "z": 700,
+      "x": 24500,
+      "y": -10,
+      "conteudo": "<p>Mas Flyn vê uma coisa, os irmãos </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/67.png",
+      "texto": "Cena 67",
+      "z": 500,
+      "x": 25000,
+      "y": 0,
+      "conteudo": "<p>E decide ir ver o que se passa e deixa rapunzel sozinha no barco e é aí que aparecem, </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/68.png",
+      "texto": "Cena 68",
+      "z": 200,
+      "x": 25500,
+      "y": 10,
+      "conteudo":  "<p>os irmão , que dizem a rapunzel q o Flyn a deu a eles</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/69.png",
+      "texto": "Cena 69",
+      "z": 700,
+      "x": 26000,
+      "y": -150,
+      "conteudo": "<p>E como prova mostram-no a ir embora num barco em direção ao reino</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/70.png",
+      "texto": "Cena 70",
+      "z": 100,
+      "x": 26500,
+      "y": 10,
+      "conteudo":  "<p>Rapunzel não quer acreditar e começa a fugir deles e quando pensa que foi apanha a “mãe” apanha-os e bate-lhes o que faz com que Rapunzel acredite que a mãe a salvou então decide ir para casa </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/71.png",
+      "silhueta": "mascaras/71M.png",
+      "texto": "Cena 71",
+      "z": 1000,
+      "x": 27000,
+      "y": 0,
+      "conteudo":  "<p>Enquanto Rapunzel vai para casa conseguimos ver que o Flyn de facto não se estava a ir embora de livre vontade... </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/72.png",
+      "texto": "Cena 72",
+      "z": 100,
+      "x": 27500,
+      "y": -10,
+      "conteudo": "<p> ele acabou por ser apanhado e preso </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/73.png",
+      "texto": "Cena 73",
+      "z": 300,
+      "x": 28500,
+      "y": 0,
+      "conteudo": "<p>Mal Rapunzel chegou ao quarto, triste, começou a olhar para o teto e ao olhar </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/74.png",
+      "silhueta": "mascaras/74M.png",
+      "texto": "Cena 74",
+      "z": 2000,
+      "x": 29000,
+      "y": 0,
+      "conteudo": "<p>Reparou que o tinha cheio dos sois do reino e teve flashbacks da sua vida passada no reino.</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/75.png",
+      "texto": "Cena 75",
+      "z": 100,
+      "x": 29500,
+      "y": 0,
+      "offsetY": -100,
+      "conteudo": "<p> e questiona a gothel </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/76.png",
+      "silhueta": "mascaras/76M.png",
+      "texto": "Cena 76",
+      "z": 1000,
+      "x": 29700,
+      "y": 0,
+      "conteudo": "<p>As pessoas da taberna vieram soltar o Flyn da prisão </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/77.png",
+      "texto": "Cena 77",
+      "z": 1500,
+      "x": 30500,
+      "y": -500,
+      "offsetY": -200,
+      "conteudo":  "<p>Flyn e o cavalo correm para a torre para ver da rapunzel </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/78.png",
+      "texto": "Cena 78",
+      "z": 1000,
+      "x": 31000,
+      "y": 0,
+      "conteudo": "<p>Soube a torre o mais rápido que consegue e vê a ranpunzel atada  e ela tenta lhe dizer alguma coisas mas antes que ele perceba  </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/79.png",
+      "texto": "Cena 79",
+      "z": 500,
+      "x": 31000,
+      "y": 0,
+      "conteudo": "<p>A Gothel dá-lhe uma facada </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/80.png",
+      "silhueta": "mascaras/80M.png",
+      "texto": "Cena 80",
+      "z": 1000,
+      "x": 32000,
+      "y": 0,
+      "conteudo": "<p>A seguir ela tenta arrastar a rapunzel para uma abertura q existe no chão da torre mas </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/81.png",
+      "texto": "Cena 81",
+      "z": 500,
+      "x": 32500,
+      "y": 0,
+      "conteudo": "<p>Rapunzel convence-a a deixa lá curar o Flyn e assim ela vai fazer tudo o que ela quiser,a mãe deixa e quando a Rapunzel se aproxima para o salvar ele corta lhe o cabelo </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/82.png",
+      "texto": "Cena 82",
+      "z": 0,
+      "x": 33000,
+      "y": 0,
+      "conteudo":  "<p> Rapunzel tenta  cantar para o Flyn só com o cabelo já sem magia, mas não resulta até que lhe cai uma lágrima do rosto e cai na dele, e essa lágrima cura o Flyn</p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/83.png",
+      "texto": "Cena 83",
+      "z": 500,
+      "x": 34000,
+      "y": 0,
+      "scale": 1.2,
+      "conteudo": "<p>É assim Flyn é curado </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/84.png",
+      "texto": "Cena 84",
+      "z": 1000,
+      "x": 35000,
+      "y": -100,
+      "offsetY": -100,
+      "conteudo": "<p>Eles dirigem-se ao palácio e a rainha e o rei são informados que encontraram a Rapunzel </p>"
+    },
+    {
+      "tipo": "unica",
+      "imagem": "principal/85.png",
+      "texto": "Cena 85",
+      "z": 500,
+      "x": 35500,
+      "y": 0,
+      "scale": 1.2,
+      "conteudo":  "<p>Eles vão até a varanda do castelo e reencontram se com a rapunzel</p>"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "cenas": [
+    {
+      "tipo": "unica",
+      "imagem": "img/image_1.png",
+      "silhueta": "img/image_1_silhueta.png",
+      "texto": "Texto da cena única",
+      "z": 200,
+      "x": "50%",
+      "y": "-200px"
+    },
+    {
+      "tipo": "dupla",
+      "imagens": [
+        {
+          "arquivo": "img/image_2.png",
+          "silhueta": "img/image_2_silhueta.png",
+          "z": 1000,
+          "x": "0%"
+        },
+        {
+          "arquivo": "img/image_3.png",
+          "silhueta": "img/image_3_silhueta.png",
+          "z": 600,
+          "x": "70%",
+          "sound": "Sons/flower-gleam-glow.mp3",
+          "soundButtonX": "200px",
+          "soundButtonY": "80px"
+        }
+      ],
+      "texto": "Texto da cena dupla"
+    },
+    {
+      "tipo": "tripla",
+      "imagens": [
+        {
+          "arquivo": "img/imagemE1.png",
+          "silhueta": "",
+          "z": 1000,
+          "x": "20%",
+          "rotacao": 15
+        },
+        {
+          "arquivo": "img/imagemD1.png",
+          "silhueta": "",
+          "z": -300,
+          "x": "30%",
+          "rotacao": -15
+        },
+        {
+          "arquivo": "img/Fundo1.png",
+          "silhueta": "",
+          "z": 100
+        }
+      ],
+      "texto": "Texto da cena tripla"
+    }
+  ]
+}
